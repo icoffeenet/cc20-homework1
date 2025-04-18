@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../pics/img25.jpg");
+    background-size: cover;
+}
+nav {
+    background-color: blueviolet;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 8px gray;
+    padding: 16px;
+}
+div {
+    font-weight: normal;
+}
+a {
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+@media only screen and (min-width: 641px) {
+    .container {
+        width: 480px;
+        margin: auto;
+        border-radius: 8px;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .container {
+        margin: 0;
+        height: 100%;
+    }
+    body {
+        background-image: none;
+        background-color: rgb(199, 233, 255, 1);
+    }
+}
+.container {
+    background-color: rgb(199, 233, 255, 0.8);
+    padding: 32px 16px 0px 16px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    line-height: 24px;
+    height 100%;
+}
+.profile-container {
+    display: block;
+    background-color: rgb(128, 128, 128);
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+input[type=submit]{
+    background-color: skyblue;
+    color:blueviolet;
+    border: none;
+    border-radius: 4px;
+    padding: 2px;
+}
+input[type=reset]{
+    background-color: lightgrey;
+    color: gray;
+    border: none;
+    border-radius: 4px;
+    padding: 2px;
+    margin-bottom: 64px;
+}
+label, input, textarea {
+    width: 100%;
+    margin-bottom: 4px;
+    border-radius: 4px;
+    border-width: 1px;
+    padding: 0px;
+}
+textarea {
+    min-height: 128px;
+    background-color: rgb(242, 242, 242);
+}
+table, tr, th {
+    border-style: solid;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: gray;
+    border-collapse: collapse;
+    margin-bottom: 32px;
+    font-weight: normal;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <title>Index</title>
+    <style>
+        body {
+            font-family: "Krub", sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="./education.html">Education</a>
+        <a href="./work.html">Work</a>
+        <a href="./contact.html">Contact</a>
+    </nav>
+
+    <div class="container">
+        <div><b>Contact Me</b></div>
+        <form action="https://jkorpela.fi/cgi-bin/echo.cgi">
+            <label>Name<br>
+                <input type="text" placeholder="" name="name" required><br>
+            </label>
+            <label>E-mail<br>
+                <input type="email" placeholder="" name="email" required><br>
+            </label>
+            <div>
+                <label>Gender</label>
+                <select name="gender" id="gender">
+                    <option value="male">male</option>
+                    <option value="female">female</option>
+                </select>
+            </div>
+            <label>Message<br>
+                <textarea type="text" placeholder="" name="message" required></textarea>
+            </label>
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </div>
+
+</body>
+
+</html>
